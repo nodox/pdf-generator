@@ -9,7 +9,7 @@ var mongoose = require('mongoose'),
 	juice = require('juice');
 
 // Configure AWS :: this needs to not be shown
-AWS.config.update({accessKeyId: 'AKIAJDTBBR457R4ZG6AQ', secretAccessKey: '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'});
+AWS.config.update({accessKeyId: '', secretAccessKey: ''});
 
 
 exports.getAllActions = function(req, res) {
